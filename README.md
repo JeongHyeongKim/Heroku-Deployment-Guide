@@ -51,7 +51,7 @@ python -m venv .venv
 
 ```
 linux : source .venv/bin/activate
-window : call .venv/scripts/activate
+window : source .venv/Scripts/activate
 ```
 
 필요한 패키지를 설치하고, 다음 명령어를 이용하여 의존성을 뽑아내봅시다.
