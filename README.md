@@ -37,7 +37,9 @@ python-{YOUR_PYTHON_VERSION}
 ### 2. Procfile
 
 Procfile은 deploy후, 실행시킬 app을 찾습니다. 다음과 같이 startproject를 하였을 때, 만들어진 wsgi를 이용하도록 합니다.
+```
 web: gunicorn {YOUR_PROJECT_NAME}.wsgi
+```
 
 ### 3. requirements.txt
 
